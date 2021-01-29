@@ -11,8 +11,8 @@ $(document).ready(function(){
 
   saveBtn.on("click",  function () {
     var time = $(this).parent().attr("id");
-    var schedule = $(this).siblings(".schedule").val();
-    localStorage.setItem(time, schedule);
+    var dailySchedule = $(this).siblings(".schedule").val();
+    localStorage.setItem(time, dailySchedule);
   });
 
 
@@ -20,10 +20,10 @@ $(document).ready(function(){
   function dayPlanner() {
     $(".time-block").each(function () {
       var id = $(this).attr("id");
-      var schedule = localStorage.getItem(id);
+      var dailySchedule = localStorage.getItem(id);
 
-      if (schedule !== null) {
-          $(this).children(".schedule").val(schedule);
+      if (dailySchedule !== null) {
+          $(this).children(".schedule").val(dailySchedule);
       }
   });
 
