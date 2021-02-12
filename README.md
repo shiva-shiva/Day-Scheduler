@@ -3,8 +3,8 @@
 
  ## Table of content
 
- [Functionality](#Functionality)
- [Day-Scheduler](#Day-Scheduler)
+ *[Functionality](#Functionality)
+ *[Day-Scheduler](#Day-Scheduler)
 
 Link to Day-Scheduler
   https://shiva-shiva.github.io/Day-Scheduler/
